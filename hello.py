@@ -1,2 +1,4 @@
 # hello.py
-print('hello Git!')
+import myname
+
+print("hello " + myname.get_name())
